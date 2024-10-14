@@ -1,7 +1,7 @@
 qpaug_template="""
 {passages}
 Your knowledge: : {paug}
-Question: {question} } Do not exceed 3 words
+Question: {question} Do not exceed 3 words
 Answer:
 """
 

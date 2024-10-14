@@ -1,24 +1,9 @@
 import json
-from openai import OpenAI
-import os
 from prompts import *
 import sys
 
 model = sys.argv[1]
 dataset = sys.argv[2]
-
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-
-def call(query, model, system):
-    response = client.chat.completions.create(
-    model=model,
-    messages=[
-        {"role": "system", "content": system},
-        {"role": "user", "content": query},
-            ]
-            )
-    return response.choices[0].message.content
-
 topk=9
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
