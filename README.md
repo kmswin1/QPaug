@@ -1,8 +1,9 @@
 # QPaug
 QPaug: Question and Passage Augmentation for Open-Domain Question Answering of LLMs <br> Empirical Methods in Natural Language Processing (EMNLP) 2024, Findings Accepted. <br>
 
+#### Download data from [link](https://drive.google.com/file/d/1UKO2InSJkXNediwFQhXHs4BNV4Hul4GP/view?usp=sharing) and unzip in current directory.
+
 ```
-## Download data from https://drive.google.com/file/d/1UKO2InSJkXNediwFQhXHs4BNV4Hul4GP/view?usp=sharing and unzip in current directory.
 
 ## Question Augmentation
 python question_augmentation.py {llm} {dataset}
