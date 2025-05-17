@@ -1,7 +1,8 @@
 # QPaug
 QPaug: Question and Passage Augmentation for Open-Domain Question Answering of LLMs <br> Empirical Methods in Natural Language Processing (EMNLP) 2024, Findings Accepted. <br>
 
-#### Download data from [link](https://drive.google.com/file/d/1UKO2InSJkXNediwFQhXHs4BNV4Hul4GP/view?usp=sharing) and unzip in current directory.
+#### Download question data from [link](https://drive.google.com/file/d/1UKO2InSJkXNediwFQhXHs4BNV4Hul4GP/view?usp=sharing) and unzip in current directory.
+#### In addition, you can download the entire passage set (21M Wikipedia) at [link](https://huggingface.co/datasets/Minsang/wikipedia_passages/tree/main).
 
 ```
 
