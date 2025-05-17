@@ -16,6 +16,7 @@ python retrieval.py {retriever} {llm} {dataset}
 python predict.py {llm} {dataset}
 ```
 
+After generation, you can evaluate rouge using (https://pypi.org/project/rouge-score/), and F1 score using (https://github.com/huggingface/evaluate/blob/main/metrics/squad_v2/README.md).
 
 
 ## Citation
