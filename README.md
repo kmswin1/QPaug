@@ -1,7 +1,7 @@
 # QPaug
 QPaug: Question and Passage Augmentation for Open-Domain Question Answering of LLMs <br> Empirical Methods in Natural Language Processing (EMNLP) 2024, Findings Accepted. <br>
 
-#### Download question data from [link](https://drive.google.com/file/d/1UKO2InSJkXNediwFQhXHs4BNV4Hul4GP/view?usp=sharing) and unzip in current directory.
+#### Download question data from [hotpotqa](https://huggingface.co/datasets/Minsang/hotpotqa), [2wiki](https://huggingface.co/datasets/Minsang/2wiki_questions), and [webq](https://huggingface.co/datasets/Minsang/web_questions).
 #### In addition, you can download the entire passage set (21M Wikipedia) at [link](https://huggingface.co/datasets/Minsang/wikipedia_passages/tree/main).
 
 ```
@@ -20,7 +20,7 @@ After generation, you can evaluate rouge using (https://pypi.org/project/rouge-s
 
 
 ## Citation
-If you use any part of this code and pretrained weights for your own purpose, please cite our [paper](https://arxiv.org/pdf/2406.14277).
+If you use any part of this code and pretrained weights for your purpose, please cite our [paper](https://arxiv.org/pdf/2406.14277).
 ```
 @InProceedings{
   title = 	 {QPaug: Question and Passage Augmentation for Open-Domain Question Answering of LLMs},
